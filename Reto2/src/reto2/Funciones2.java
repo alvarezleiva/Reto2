@@ -11,4 +11,13 @@ public class Funciones2 {
 	public static double Celsius_Fahrenheit (double num1) {
 		return (num1 * 9/5) + 32;
 	}
-}
+	
+	public static double galones_litros (double num1) {
+		return (num1 * 0.264172);
+	}
+	
+	public static double litros_galones (double num1) {
+		return (num1 / 0.264172);
+	}
+	}
+
