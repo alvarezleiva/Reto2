@@ -32,7 +32,7 @@ public class Funciones {
 				int num = Integer.parseInt(s);
 				return num;
 			} catch (Exception ex) {
-				System.out.println("Introduce un nÂº correcto");
+				System.out.println("Introduce un nº correcto");
 			}
 		} while (true);
 
@@ -45,7 +45,7 @@ public class Funciones {
 				double num2 = Double.parseDouble(s);
 				return num2;
 			} catch (Exception ex) {
-				System.out.println("Introduce un nÂº decimal correcto");
+				System.out.println("Introduce un nº decimal correcto");
 			}
 		} while (true);
 
