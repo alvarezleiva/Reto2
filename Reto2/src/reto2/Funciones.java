@@ -4,14 +4,6 @@ import java.util.Scanner;
 
 public class Funciones {
 
-	public static void main(String[] args) {
-
-		
-		Scanner sc = new Scanner(System.in);
-
-		int ent = dimeEntero("Introduce un número entero", sc);
-		double dou = dimeDouble("Introduce un número decimal", sc);
-	}
 
 	public static boolean esInt(String s) {
 
@@ -25,7 +17,7 @@ public class Funciones {
 
 	public static boolean esDouble(String s) {
 		try {
-			double num = Integer.parseInt(s);
+			double num = Double.parseDouble(s);
 			return true;
 		} catch (Exception e) {
 			return false;
@@ -40,7 +32,7 @@ public class Funciones {
 				int num = Integer.parseInt(s);
 				return num;
 			} catch (Exception ex) {
-				System.out.println("Introduce un nº correcto");
+				System.out.println("Introduce un n� correcto");
 			}
 		} while (true);
 
@@ -53,7 +45,7 @@ public class Funciones {
 				double num2 = Double.parseDouble(s);
 				return num2;
 			} catch (Exception ex) {
-				System.out.println("Introduce un nº decimal correcto");
+				System.out.println("Introduce un n� decimal correcto");
 			}
 		} while (true);
 
