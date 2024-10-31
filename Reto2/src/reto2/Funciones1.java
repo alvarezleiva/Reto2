@@ -20,4 +20,10 @@ public class Funciones1 {
 				System.out.println("Debe ser una de las opciones indicadas");
 		} while (true);
 	}
+	public static double conversionKmMillas(double num) {
+		return num*0.621371;
+	}
+	public static double conversionMillasKm(double num) {
+		return num*1.60934;
+	}
 }
