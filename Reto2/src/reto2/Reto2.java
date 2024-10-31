@@ -31,14 +31,7 @@ public class Reto2 {
 			    	System.out.println("El resultado es " + Funciones1.conversionDeMillasKm(opcion));
 			    }
 			    break;
-			  case 2:
-			    System.out.println("i es dos.");
-			    break;
-			  case 3:
-			    System.out.println("i es tres.");
-			    break;
-			  default:
-			    System.out.println("i es mayor a tres.");
+	
 			}
 			
 
