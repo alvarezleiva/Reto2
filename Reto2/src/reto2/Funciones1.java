@@ -6,9 +6,7 @@ public class Funciones1 {
 
 	public static int subMenu(String tipoConversion,String texto1, String texto2,Scanner sc) {
 		do {
-			System.out.println("Selecciona la conversion de "+tipoConversion);
-			System.out.println(texto1);
-			System.out.println(texto2);
+			System.out.println("Selecciona la conversion de "+tipoConversion+"\n"+texto1+"\n"+texto2);
 			int num=Funciones.dimeEntero("",sc);
 			if(num==1)
 				return num;
